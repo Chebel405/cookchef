@@ -8,8 +8,8 @@ function App() {
 
     <div className={`d-flex flex-column ${styles.appContainer}`}>
       <Header />
-      <Footer />
       <Content />
+      <Footer />
     </div>
 
   )
