@@ -3,7 +3,6 @@ import styles from "./Recipe.module.scss";
 
 
 
-
 function Recipe({ title, image }) {
 
     const [liked, setLiked] = useState(false);
@@ -25,6 +24,8 @@ function Recipe({ title, image }) {
             </div>
         </div>
     );
+
 }
+
 
 export default Recipe;
